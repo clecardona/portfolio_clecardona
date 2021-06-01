@@ -1,0 +1,44 @@
+.profile{
+  
+    display: grid;
+    grid-template-columns: 1fr 200px;  
+
+    overflow: hidden;
+  }
+  
+.profile-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding-left: 30px;  
+}
+
+.firstname{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.lastname{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.position{
+    font-family: 'Courier New', Courier, monospace;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-main{
+    position: relative;
+    right:0px;
+
+    width:300px;
+    height: auto;
+
+    border-radius: 200px 0 0 200px;
+  }
+

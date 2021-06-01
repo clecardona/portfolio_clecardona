@@ -1,3 +1,5 @@
+import ProfileSection from "./components/ProfileSection";
+import SkillSection from "./components/SkillSection";
 import logo from "./logo.svg";
 import "./styles/base.css";
 
@@ -7,21 +9,9 @@ function App() {
       <header>header</header>
 
       <main>
-        <section className="profile">
-          
-            <div className="top-left">
-              <p>Clément</p>
-              <p>Cardona</p>
-              <p>Junior full stack developer</p>
-              <p>Portfolio</p>
-              
-              </div>
-            <div className="top-right">
-              <img className="img-main" src = "https://clecardona.com/img/portrait.jpg"/>
-            </div>
-          
-        </section>
-        <section>Skills</section>
+        <ProfileSection/>
+        <SkillSection/>
+       
         <section>Projects</section>
       </main>
     </div>
