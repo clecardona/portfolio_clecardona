@@ -1,16 +1,18 @@
 .skills{
   
 
-
+    padding: 12px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
     
 
     overflow: hidden;
   }
+
  .skills-item{
-     background-color: teal;
-     margin: 3px;
+     background-color: #3f3f3f;
+     margin: 6px;
      padding: 12px;
  }
 

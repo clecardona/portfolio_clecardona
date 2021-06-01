@@ -1,4 +1,6 @@
+import HeaderBackground from "./components/HeaderBackground";
 import ProfileSection from "./components/ProfileSection";
+import ProjectSection from "./components/ProjectSection";
 import SkillSection from "./components/SkillSection";
 import logo from "./logo.svg";
 import "./styles/base.css";
@@ -6,13 +8,14 @@ import "./styles/base.css";
 function App() {
   return (
     <div className="App">
-      <header>header</header>
+      <header><HeaderBackground/></header>
+      
 
       <main>
         <ProfileSection/>
         <SkillSection/>
-       
-        <section>Projects</section>
+        <ProjectSection/>
+        <div id="diamond"></div>
       </main>
     </div>
   );

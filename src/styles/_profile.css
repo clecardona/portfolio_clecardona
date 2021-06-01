@@ -16,6 +16,7 @@
 }
 
 .firstname{
+    
     font-size: 50px;
     font-weight: 400;
 }
@@ -26,10 +27,13 @@
 }
 
 .position{
+    color:#f6dd4f;
     font-family: 'Courier New', Courier, monospace;
 }
 .title{
+    color: yellow;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
 }
 
 .img-main{
@@ -40,5 +44,8 @@
     height: auto;
 
     border-radius: 200px 0 0 200px;
+
+    object-fit:fill;
+    object-position: top;
   }
 
