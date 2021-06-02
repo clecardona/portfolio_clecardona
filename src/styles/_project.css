@@ -107,7 +107,7 @@ ul li.item4 .bg {
     background-size: cover;
 }
 ul li.item5 .bg {
-    background: url(https://source.unsplash.com/aPtPQFyLxMM/600x600);
+    background: url(../assets/img/todolist.png);
     background-size: cover;
 }
 
@@ -145,13 +145,13 @@ ul li.item5 .bg {
   }
 
   .item-legend{
-    background-color: aqua;
+    background-color: rgba(39, 39, 39, 0.144);
     
     height: 100%;
 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
    opacity: 0;
    z-index: 5;
 
@@ -162,10 +162,19 @@ ul li.item5 .bg {
     cursor: pointer;
     margin: 0 5px;
 
-    margin-top: 20px;
+    
 }
+.item-legend .icon{
+  color: rgb(57, 52, 75);
+}
+
+
 .item-legend:hover{ 
    opacity: 1;
    transition: ease-in .3s;
     
+}
+
+.item-legend .icon:hover{
+  color: rgb(96, 87, 128);
 }

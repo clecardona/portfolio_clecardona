@@ -1,6 +1,7 @@
-import cakery from "../assets/img/cakery.png";
-import parcel from "../assets/img/parcel.png";
-import archi from "../assets/img/archi.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChessKing,faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faGithub ,faLinkedin ,faSafari} from "@fortawesome/free-brands-svg-icons";
+
 export default function ProjectSection() {
   return (
     <section className="project">
@@ -14,13 +15,13 @@ export default function ProjectSection() {
                 href="https://github.com/clecardona/package-tracking-app"
                 target="blank"
               >
-                git
+             <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
               </a>
               <a
                 href="https://package-tracking-app-6e0dd.web.app/"
                 target="blank"
               >
-                site
+              <FontAwesomeIcon icon={faSafari} className="icon" size="2x" />
               </a>
             </div>
             </div>
@@ -33,10 +34,10 @@ export default function ProjectSection() {
               <p>Cakery<br/><strong>Website</strong></p>
             <div className="item-legend">
               <a href="https://github.com/clecardona/cupcake" target="blank">
-                git
+              <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
               </a>
               <a href="https://cupcake-c0ffc.web.app/" target="blank">
-                site
+              <FontAwesomeIcon icon={faSafari} className="icon" size="2x" />
               </a>
             </div>
             </div>
@@ -52,7 +53,7 @@ export default function ProjectSection() {
               </p>
             <div className="item-legend">
               <a href="http://clecardona.com/" target="blank">
-                site
+              <FontAwesomeIcon icon={faSafari} className="icon" size="2x" />
               </a>
             </div>
             </div>
@@ -72,7 +73,7 @@ export default function ProjectSection() {
               </p>
             <div className="item-legend">
               <a href="https://github.com/clecardona/inStyle" target="blank">
-                git
+              <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
               </a>
             </div>
             </div>
@@ -90,7 +91,7 @@ export default function ProjectSection() {
 
               <div className="item-legend">
                 <a href="https://github.com/clecardona/todolist" target="blank">
-                  git
+                <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
                 </a>
               </div>
             </div>
