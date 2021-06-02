@@ -2,8 +2,10 @@ import HeaderBackground from "./components/HeaderBackground";
 import ProfileSection from "./components/ProfileSection";
 import ProjectSection from "./components/ProjectSection";
 import SkillSection from "./components/SkillSection";
+import MeSection from "./components/MeSection";
 import logo from "./logo.svg";
 import "./styles/base.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,11 +14,17 @@ function App() {
       
 
       <main>
+      
         <ProfileSection/>
+
         <SkillSection/>
+        <h2>Who I am</h2>
+       <MeSection/>
+
+        <h2>Selected Work</h2>
         <ProjectSection/>
-        <div id="diamond"></div>
       </main>
+      <Footer/>
     </div>
   );
 }
