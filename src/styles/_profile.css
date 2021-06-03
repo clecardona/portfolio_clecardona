@@ -16,34 +16,47 @@
 }
 
 .firstname{
-    
+    margin: 0;
+    color: black;
     font-size: 50px;
     font-weight: 400;
 }
 
 .lastname{
+    margin-top:-14px;
+    color: black;
     font-size: 50px;
     font-weight: 500;
 }
 
 .position{
-    color:#f6dd4f;
+    color: black;
+    border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
+
+    padding: 1px 8px;
 }
 .title{
-    color: yellow;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
 }
 
+.profile-right div{
+   
+   box-shadow: inset 3px 3px 5px rgba(54, 54, 54, 0.445);
+   border-radius: 200px 0 0 200px;
+
+   overflow: hidden;
+}
 .img-main{
     position: relative;
     right:0px;
 
     width:300px;
     height: auto;
-
-    border-radius: 200px 0 0 200px;
+    z-index: -2;
+    
 
     object-fit:fill;
     object-position: top;

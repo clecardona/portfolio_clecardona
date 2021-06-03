@@ -1,53 +1,59 @@
-
-/* style imports*/ 
+/* style imports*/
 @import url("_structure.css");
 @import url("_header.css");
 @import url("_footer.css");
 @import url("_profile.css");
 @import url("_skills.css");
 @import url("_project.css");
-/* fonts imports*/ 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Source+Code+Pro:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* fonts imports*/
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Source+Code+Pro:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-/* variables*/ 
+/* variables*/
 :root {
-    --header-height: 110px;
-    --footer-height: 60px;
-    
-      /*colors*/
-    --lagoonBlue: rgb(130, 221, 228);
-    --deepBlue: rgb(50, 167, 173);
+  --header-height: 70px;
+  --footer-height: 60px;
 
-    --lemonYellow: rgb(247, 245, 176);
-    --gradientYellow : linear-gradient(0deg, rgba(254,212,40,1) 100%, rgba(255,255,255,1) 100%);
+  /*colors*/
+  --lagoonBlue: rgb(130, 221, 228);
+  --deepBlue: rgb(50, 167, 173);
 
-    --color-background-menu:white;
-    --color-text-menu:grey;
+  --lemonYellow: rgb(247, 245, 176);
+  --gradientYellow: linear-gradient(
+    0deg,
+    rgba(254, 212, 40, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  --med-yellow: #e6ce1d;
+  --light-yellow: #f4dd08;
+  --bright-yellow: #fdec00;
+  --classy-grey: #403f45;
 
-    --color-footer-structure:linear-gradient(to right, rgb(223, 223, 223), #d6d6d6);;
-  
-      /*fonts type*/
-    --font-funny : 'Bangers', cursive;
-    --font-classy : 'Ubuntu', sans-serif ; 
-    --font-code : 'Source Code Pro', monospace;
-    
-    /*font-size*/
-    --font-XS:15px;
-    --font-S:20px;
-    --font-M:25px;
-    --font-L:30px;
-    --font-XL:40px;
-    
-   
-    --font-dropdown-menu:20px;
+  --color-background-menu: white;
+  --color-text-menu: grey;
 
-    /*spaces*/
+  --color-footer-structure: linear-gradient(
+    to right,
+    rgb(223, 223, 223),
+    #d6d6d6
+  );
 
-    --bigspace:60px;
-    --mediumspace:30px;
-    --smallspace:10px;
+  /*fonts type*/
+  --font-funny: "Bangers", cursive;
+  --font-classy: "Ubuntu", sans-serif;
+  --font-code: "Source Code Pro", monospace;
 
-   
+  /*font-size*/
+  --font-XS: 15px;
+  --font-S: 20px;
+  --font-M: 25px;
+  --font-L: 30px;
+  --font-XL: 40px;
 
-  
-  }
+  --font-dropdown-menu: 20px;
+
+  /*spaces*/
+
+  --bigspace: 60px;
+  --mediumspace: 30px;
+  --smallspace: 10px;
+}

@@ -1,20 +1,26 @@
 .skills{
   
-
+    margin: 50px 0px ;;
+    background-color: rgba(83, 83, 83, 0.164);
+    background-image: url(../assets/img/macblack.jpeg);
+    background-blend-mode: lighten;
+    
+    object-fit:fill;
     padding: 12px;
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
-    
+    height: 350px;
 
     overflow: hidden;
   }
 
  .skills-item{
-     background-color: #3f3f3f;
+     background-color: #3f3f3f5d;
      margin: 6px;
      padding: 12px;
 
      border-radius: 10px;
  }
+ 
 

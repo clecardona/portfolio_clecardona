@@ -10,21 +10,43 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <header><HeaderBackground/></header>
-      
+      <header>
+        <HeaderBackground />
+      </header>
 
       <main>
-      
-        <ProfileSection/>
+        <ProfileSection />
+        <div className="section-title">
+          <p>
+            <strong>What</strong> I do
+          </p>
+        </div>
 
-        <SkillSection/>
-        <h2>Who I am</h2>
-       <MeSection/>
+        <SkillSection />
+        <div className="section-title">
+          <p>
+            <strong>Who</strong> I am
+          </p>
+        </div>
+        <MeSection />
 
-        <h2>Selected Work</h2>
-        <ProjectSection/>
+        <div className="section-title">
+          <p>
+            <strong>Selected</strong> Work
+          </p>
+        </div>
+        <ProjectSection />
+        <div className="section-title">
+          <p>
+            <strong>Technologies</strong> I use
+          </p>
+        </div>
+
+
+
+
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
