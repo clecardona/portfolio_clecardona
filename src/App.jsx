@@ -6,6 +6,7 @@ import MeSection from "./components/MeSection";
 import logo from "./logo.svg";
 import "./styles/base.css";
 import Footer from "./components/Footer";
+import TechnoSection from "./components/TechnoSection";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <strong>Technologies</strong> I use
           </p>
         </div>
+        <TechnoSection/>
 
 
 

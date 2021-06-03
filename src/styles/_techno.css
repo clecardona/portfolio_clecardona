@@ -1,0 +1,38 @@
+.techno{
+  
+   margin: 25px 0;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-auto-rows: auto;
+
+    align-items: center;
+    justify-items: center;
+
+    overflow: hidden;
+  }
+
+ 
+.icon-techno{
+    fill: white;
+    cursor: default;
+    margin: 12px;
+}
+
+.icon-react:hover{
+    color:rgb(79, 176, 206);
+ }
+
+.icon-css:hover,.icon-java:hover{
+   color:rgb(65, 121, 153);
+}
+.icon-html:hover{
+    color:rgb(235, 99, 21);
+ }
+.icon-spring:hover{
+    fill:rgb(86, 153, 65);
+ }
+ .icon-fb:hover{
+    fill:rgb(219, 197, 1);
+ }
+
