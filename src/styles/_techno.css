@@ -36,3 +36,20 @@
     fill:rgb(219, 197, 1);
  }
 
+
+
+ .icon-li{
+    
+    margin:0;
+    padding:0;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    
+ }
+ .icon-li:hover{
+   background-color: rgb(226, 226, 226);
+   color:rgb(41, 39, 170);
+   
+}
+

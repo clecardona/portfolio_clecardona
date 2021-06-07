@@ -15,12 +15,17 @@
     overflow: hidden;
   }
 
- .skills-item{
-     background-color: #3f3f3f5d;
-     margin: 6px;
-     padding: 12px;
+  
 
+ .skills-item{
+     background-color: #8a868646;
+     margin: 6px;
+     padding: 10px 20px 20px 20px;
+     color: rgb(231, 228, 175);
      border-radius: 10px;
  }
  
-
+ .skills-item h3{
+    color: white;
+    text-align: center;
+}

@@ -2,7 +2,7 @@ export default function MeSection() {
   return (
     <section className="me">
      
-        <h3>Title</h3>
+        {/* <h3>Title</h3> */}
         <p>I grew up in Nice, France.
         Former Architect, I decided to move to Stockholm to follow my girlfriend.<br/>
 

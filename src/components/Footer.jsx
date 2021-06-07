@@ -11,10 +11,14 @@ export default function Footer() {
     <footer>
       <ol>
         <li>
-          <FontAwesomeIcon icon={faLinkedin} className="icon" size="2x" />
+        <a href ="https://www.linkedin.com/in/cl%C3%A9ment-cardona-205098171/" target="blank">
+          <FontAwesomeIcon icon={faLinkedin} linkclassName="icon" size="2x" className="icon icon-li"/>
+          </a>
         </li>
-        <li>
+        <li><a href="mailto: clecardona@gmail.com" target="blank" className="icon">
+
           <FontAwesomeIcon icon={faEnvelope} className="icon" size="2x" />
+        </a>
         </li>
 
         <li>

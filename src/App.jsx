@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import HeaderBackground from "./components/HeaderBackground";
 import ProfileSection from "./components/ProfileSection";
 import ProjectSection from "./components/ProjectSection";
@@ -7,6 +9,8 @@ import logo from "./logo.svg";
 import "./styles/base.css";
 import Footer from "./components/Footer";
 import TechnoSection from "./components/TechnoSection";
+
+
 
 function App() {
   return (
