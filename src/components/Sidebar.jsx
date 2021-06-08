@@ -1,0 +1,48 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChessKing, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faSafari,
+} from "@fortawesome/free-brands-svg-icons";
+import { slide as Menu } from "react-burger-menu";
+
+export default function Sidebar() {
+  return (
+    <Menu>
+      <h3>Menu</h3>
+
+      <div className="menu-item">
+        <a  className="menu-item-text" href="#what">
+          What I do
+        </a>
+      </div>
+
+      <div className="menu-item">
+        
+       <a  className="menu-item-text" href="#who">
+          Who I am
+        </a>
+      </div>
+
+      <div className="menu-item">
+        <a  className="menu-item-text" href="#selected">
+          Selected Work
+        </a>
+      </div>
+
+      <div className="menu-item">
+        
+        <a  className="menu-item-text" href="#techno">
+          Technologies handled
+        </a>
+      </div>
+
+      <div className="menu-item">
+        
+          
+        
+      </div>
+    </Menu>
+  );
+}

@@ -3,14 +3,14 @@
     margin: 50px 0px ;;
     background-color: rgba(83, 83, 83, 0.164);
     background-image: url(../assets/img/macblack.jpeg);
+    background-repeat: no-repeat;
     background-blend-mode: lighten;
     
-    object-fit:fill;
     padding: 12px;
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
-    height: 350px;
+
 
     overflow: hidden;
   }
