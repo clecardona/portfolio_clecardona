@@ -45,7 +45,7 @@
   }
 
   ul li.item1{
-    background-color: #e8c70b;
+    background-color: var(--champagne);
     top: -100px;
     left: -100px;
   }
@@ -111,7 +111,7 @@ ul li.item5 .bg {
 
 
   .item-title{
-      background-color: yellow;
+      background-color: var(--champagne);
       line-height: 0.9;
 
       position: relative;
@@ -163,7 +163,7 @@ ul li.item5 .bg {
     
 }
 .item-legend .icon{
-  color: rgb(18, 12, 54);
+  color: var(--backgrey);
 }
 
 
@@ -174,5 +174,5 @@ ul li.item5 .bg {
 }
 
 .item-legend .icon:hover{
-  color: rgb(36, 19, 99);
+  color: rgb(228, 227, 227);
 }

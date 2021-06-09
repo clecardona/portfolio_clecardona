@@ -4,40 +4,45 @@
     grid-template-columns: 1fr 200px;  
 
     overflow: hidden;
+
   }
   
 .profile-left{
+    background-color: ;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 
     align-items: center;
-    padding-left: 30px;  
+    padding-top:90px;
+
+    color: rgba(255, 255, 255, 0.822);
+      
 }
 
 .firstname{
     margin: 0;
-    color: rgb(0, 0, 0);
+    
     font-size: 50px;
     font-weight: 400;
 }
 
 .lastname{
     margin-top:-14px;
-    color: black;
+    
     font-size: 50px;
     font-weight: 500;
 }
 
 .position{
-    color: black;
-    border: 1px solid black;
+   
+    border: 1px solid rgba(255, 255, 255, 0.568);
     font-family: 'Courier New', Courier, monospace;
 
     padding: 1px 8px;
 }
 .title{
-    color: black;
+   
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
 }
@@ -53,7 +58,7 @@
     position: relative;
     right:0px;
 
-    width:300px;
+    width:310px;
     height: auto;
     z-index: -2;
     

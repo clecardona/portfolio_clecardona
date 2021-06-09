@@ -6,11 +6,13 @@ import {
   faSafari,
 } from "@fortawesome/free-brands-svg-icons";
 import { slide as Menu } from "react-burger-menu";
+import CC from '../assets/img/CC.jpeg'
 
 export default function Sidebar() {
   return (
     <Menu>
       <h3>Menu</h3>
+      <hr/>
 
       <div className="menu-item">
         <a  className="menu-item-text" href="#what">
@@ -39,7 +41,7 @@ export default function Sidebar() {
       </div>
 
       <div className="menu-item">
-        
+        <img className="img-60 img-rd" src={CC}/>
           
         
       </div>

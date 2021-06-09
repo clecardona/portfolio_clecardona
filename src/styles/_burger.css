@@ -25,28 +25,33 @@
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
+  box-shadow: 2px 2px 12px black;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #373a47;
+  background: #ffff90;
+    transition: ease-in-out .3s;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
+  
   height: 24px;
   width: 24px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: var(--backgrey);
 }
 
 /*
   Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  Note: Beware of modifying this element as it can break the animations 
+  - you should not need to touch it in most cases
   */
+
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
@@ -71,8 +76,7 @@
   flex-direction: column;
   justify-content: flex-start;
   /* gap: 20px; */
-  
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 /*   /* Menu item including icon */
@@ -88,7 +92,9 @@
 }
 
 .menu-item-text:hover{
-    color: rgb(211, 210, 210);
+    
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.644);
+    transition: ease-in-out .3s;
 }
 
 .bm-menu-wrap img {

@@ -22,7 +22,9 @@ export default function Footer() {
         </li>
 
         <li>
-          <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
+        <a href ="https://github.com/clecardona" target="blank">
+          <FontAwesomeIcon icon={faGithub} linkclassName="icon" size="2x" className="icon icon-gh"/>
+          </a>
         </li>
       </ol>
     </footer>

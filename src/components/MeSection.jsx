@@ -8,10 +8,7 @@ export default function MeSection() {
 
         From there I choose to follow my passion and change carrier to become a developer.
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus
-        libero eum amet repudiandae! Nesciunt dicta ducimus eos, recusandae
-        facere minus accusantium nam, repellendus fugit quo ab voluptas iure
-        quam?</p>
+        Curious and creative. An easy going personality that enjoy teamwork and collaboration. Aiming to stay positive in any situation.</p>
         
       
     </section>

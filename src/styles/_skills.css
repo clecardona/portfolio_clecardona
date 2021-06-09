@@ -1,16 +1,18 @@
 .skills{
   
-    margin: 50px 0px ;;
-    background-color: rgba(83, 83, 83, 0.164);
+    margin: 50px 0px ;
+    background-color: rgba(189, 177, 15, 0.164);
     background-image: url(../assets/img/macblack.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: lighten;
+    background-blend-mode:soft-light;
+
+    box-shadow:inset 0px 0px 10px 20px rgb(43, 43, 43);
     
     padding: 12px;
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
-
 
     overflow: hidden;
   }
@@ -18,14 +20,36 @@
   
 
  .skills-item{
-     background-color: #8a868646;
-     margin: 6px;
+     background-color: #00000060;
+     margin: 10px;
      padding: 10px 20px 20px 20px;
-     color: rgb(231, 228, 175);
      border-radius: 10px;
+
+     border:1px solid rgba(255, 255, 255, 0.445);
+
+     font-size: 20px;
+     height: max-content;
  }
  
  .skills-item h3{
-    color: white;
+    
     text-align: center;
 }
+
+.frontend{
+    border:1px solid #d4b13b;
+    color :#d4b13b;
+
+}
+.backend{
+    border:1px solid #ad974f;
+    color :#ad974f;
+
+}
+
+.philosophy{
+    border:1px solid #caa09b;
+    color :#caa09b;
+
+}
+
