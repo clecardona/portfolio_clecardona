@@ -1,32 +1,33 @@
+.me {
+  font-size: 20px;
 
-.me{
-font-size: 20px;
-position: relative;
-top: 50px;
-left: -10px;
-
+  background: rgba(179, 184, 245, 0.205);
+  box-shadow: inset 0px 0px 10px 20px rgb(43, 43, 43);
+  overflow: hidden;
 }
-.me p{
-    
-    width: 70%;
-    height: 70%;
+.me p {
+  position: relative;
+  top: 45px;
+  left: -10px;
+  width: 70%;
+  height: 70%;
 
-    padding: 40px;
-    
-    background-color: #00000060;
-     margin: 10px;
-     padding: 10px 20px 20px 30px;
-     
-     border-top:1px solid rgba(255, 255, 255, 0.616);
-     border-right:1px solid rgba(255, 255, 255, 0.616);
-     border-bottom:1px solid rgba(255, 255, 255, 0.616);
+  padding: 40px;
 
-     border-radius: 0 20px 20px 0;
+  background-color: #00000060;
+  margin: 10px;
+  padding: 10px 20px 20px 30px;
 
-     color: rgba(255, 255, 255, 0.616);
-   
-    display: flex;
-    flex-direction: column;
+  border-top: 1px solid rgba(255, 255, 255, 0.616);
+  border-right: 1px solid rgba(255, 255, 255, 0.616);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.616);
 
-    justify-content: center;
+  border-radius: 0 20px 20px 0;
+
+  color: rgba(255, 255, 255, 0.616);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
 }

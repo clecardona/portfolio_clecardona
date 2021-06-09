@@ -40,10 +40,9 @@ export default function Sidebar() {
         </a>
       </div>
 
-      <div className="menu-item">
+      <div className="burger-footer">
         <img className="img-60 img-rd" src={CC}/>
           
-        
       </div>
     </Menu>
   );
