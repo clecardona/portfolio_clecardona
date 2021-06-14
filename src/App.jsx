@@ -28,14 +28,14 @@ function App() {
         <ProfileSection />
         <div className="section-title">
           <p id="what">
-            <strong>What</strong> I do
+            <strong>What</strong> I do ?
           </p>
         </div>
 
         <SkillSection />
         <div className="section-title">
           <p id="who">
-            <strong>Who</strong> I am
+            <strong>Who</strong> I am ?
           </p>
         </div>
         <MeSection />

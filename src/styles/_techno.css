@@ -36,15 +36,11 @@
  }
 
 
-.techno .icon-box-zoom:hover .icon {
- 
-}
-
 
 .icon-techno:hover{
   
    transform-origin: center;
-   transform:translateY(-10px) scale(1.5) ;
+   transform:rotate(5deg) scale(1.5) ;
   
    transition: ease-in-out 0.3s; 
  }

@@ -142,8 +142,14 @@ ul li.item5 .bg {
    
   }
 
+  .item-title:hover .item-legend{ 
+    opacity: 1;
+    transition: ease-in .3s;
+     
+ }
+
   .item-legend{
-    background-color: rgba(39, 39, 39, 0.144);
+    /* background-color: rgba(39, 39, 39, 0.144); */
     
     height: 100%;
 
@@ -167,11 +173,7 @@ ul li.item5 .bg {
 }
 
 
-.item-legend:hover{ 
-   opacity: 1;
-   transition: ease-in .3s;
-    
-}
+
 
 .item-legend .icon:hover{
   color: rgb(228, 227, 227);
