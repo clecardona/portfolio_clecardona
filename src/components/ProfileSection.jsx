@@ -1,26 +1,33 @@
-
+import portrait from "../assets/img/portrait.jpeg";
 
 export default function ProfileSection() {
-
- 
-
   return (
-
     <section className="profile">
-          
-            <div className="profile-left">
-              <p className="firstname" >Clément</p>
-              <p className="lastname" >Cardona</p>
-              <p className="position" >Junior Full-stack developer</p>
-              <p className="title" >Portfolio</p>
+      <div className="profile-left">
+        <p className="firstname">Clément</p>
+        <p className="lastname">Cardona</p>
+        <p className="position">Junior Full-stack developer</p>
+        <p className="title">Portfolio</p>
+      </div>
+      <div className="profile-right">
+        <div>
+          <img className="img-main" src={portrait} />
+        </div>
+
+        <div className="drawer">
+          <svg viewBox="0 0 500 500">
+            <path
+              id="curve"
+              d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97"
               
-              </div>
-            <div className="profile-right">
-              <div><img className="img-main" src = "https://clecardona.com/img/portrait.jpg"/></div>
-              
-            </div>
-          
-        </section>
-    
+            />
+            <text width="300">
+              <textPath startOffset="20%"  /* text-anchor="middle"  */href="#curve">      clecardona@gmail.com  . 076-590-16-39</textPath>
+            </text>
+          </svg>
+        </div>
+
+      </div>
+    </section>
   );
 }

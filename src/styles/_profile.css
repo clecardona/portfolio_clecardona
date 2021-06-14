@@ -1,69 +1,97 @@
-.profile{
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 250px;
 
-    display: grid;
-    grid-template-columns: 1fr 200px;  
+  overflow: hidden;
+}
 
-    overflow: hidden;
+.profile-left {
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
-  }
+  align-items: center;
+  padding-top: 90px;
+
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.firstname {
+  margin: 0;
+
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.lastname {
+  margin-top: -14px;
+
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.position {
+  border: 1px solid rgba(255, 255, 255, 0.568);
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 1px 8px;
+}
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+/* .profile-right div {
+  box-shadow: inset 3px 3px 5px rgba(54, 54, 54, 0.445);
+  border-radius: 300px 0 0 300px;
+  overflow: hidden;
+} */
+
+.img-main {
+  position: relative;
+  right: -30px;
+
+  height: 430px;
+  border-radius: 300px 0 0 300px;
+
+  z-index: -2;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.profile-right:hover .img-main-overlay {
+  transform-origin: right;
+  transform: translateX(-100px) scale(1.25);
+  transition: ease-in 0.3s;
+  opacity: 1;
+}
+
+.drawer {
   
-.profile-left{
-    background-color: ;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  position: absolute;
+  top: 20px;
+  right: -230px;
 
-    align-items: center;
-    padding-top:90px;
+  height: 490px;
+  width: 520px;
+  opacity: 0.8;
 
-    color: rgba(255, 255, 255, 0.822);
-      
+  border-radius: 200px;
+
+  z-index: 200;
 }
 
-.firstname{
-    margin: 0;
-    
-    font-size: 50px;
-    font-weight: 400;
+svg {
+  transform: rotate(-90deg);
+}
+path {
+  fill: transparent;
 }
 
-.lastname{
-    margin-top:-14px;
-    
-    font-size: 50px;
-    font-weight: 500;
+
+text {
+  fill: rgba(255, 255, 255, 0.596);
+  font-size: 18px;
+  
 }
-
-.position{
-   
-    border: 1px solid rgba(255, 255, 255, 0.568);
-    font-family: 'Courier New', Courier, monospace;
-
-    padding: 1px 8px;
-}
-.title{
-   
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-}
-
-.profile-right div{
-   
-   box-shadow: inset 3px 3px 5px rgba(54, 54, 54, 0.445);
-   border-radius: 200px 0 0 200px;
-
-   overflow: hidden;
-}
-.img-main{
-    position: relative;
-    right:0px;
-
-    width:310px;
-    height: auto;
-    z-index: -2;
-    
-
-    object-fit:fill;
-    object-position: top;
-  }
-
