@@ -1,13 +1,13 @@
 .skills{
   
     margin: 50px 0px ;
-    background-color: rgba(189, 177, 15, 0.164);
+    background-color: rgba(0, 0, 0, 0.445);
     background-image: url(../assets/img/macblack.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
+    background-blend-mode: multiply;
 
-    box-shadow:inset 0px 0px 10px 20px rgb(43, 43, 43);
+    box-shadow:inset 0px 0px 30px 30px rgb(43, 43, 43);
     
     padding: 12px;
     
@@ -21,7 +21,7 @@
 
  .skills-item{
      background-color: #00000060;
-     margin: 10px;
+     margin: 30px 10px 0 10px;
      padding: 10px 20px 20px 20px;
      border-radius: 10px;
 
