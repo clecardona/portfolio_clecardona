@@ -108,15 +108,17 @@ header{
 }
 
 main {
-
+/* background-color: crimson; */
   display: flex;
   flex-direction: column;
   gap: 20px;
   
   min-height: calc(100vh - var(--header-height) - var(--footer-height));
   width: 100%;
+  overflow: hidden;
   
   margin: auto;
+  
 }
 
 .img-60{

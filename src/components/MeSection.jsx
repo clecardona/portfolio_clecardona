@@ -3,7 +3,7 @@ export default function MeSection() {
     <section className="me">
      
       <div className="quote">"</div>
-      <p>
+      <div className="bloc">
         <span className="wb">I grew up in Nice, France.</span>
         <span className="yb golden">
           Former Architect, I decided to move to Stockholm to follow the person
@@ -22,7 +22,7 @@ export default function MeSection() {
           An easy going personality that enjoy teamwork and collaboration.
         </div>
         <span className="bwb">Aiming to stay positive in any situation.</span>
-      </p>
+      </div>
       <div className="quote quote-end">"</div>
     </section>
   );

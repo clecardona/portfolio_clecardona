@@ -61,6 +61,7 @@
   position: relative;
   top: 30px;
   opacity: 0;
+  text-align: center;
 }
 
 .techno .icon-box:hover .icon-label {

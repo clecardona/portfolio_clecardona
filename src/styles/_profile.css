@@ -47,29 +47,7 @@
   font-weight: 700;
 }
 
-/** media queries mobile */
-@media screen and (max-width: 800px) {
-  .profile {
-    grid-template-columns: 1fr 220px;
-  }
 
-  .profile-left{
-    
-    
-    padding:110px 16px 0 16px ;
-  
-  }
- 
-
-  .firstname,.lastname{
-    font-size: 40px;
-  }
-
-  .position{
-    font-size: 20px;
-    text-align: center;
-  }
-}
 
 .img-main {
   position: relative;
@@ -113,6 +91,40 @@
     transition: ease 0.5s;
 }
 
+/** media queries mobile */
+@media screen and (max-width: 800px) {
+  .profile {
+    grid-template-columns: 1fr 220px;
+  }
+
+  .profile-left{
+    
+    
+    padding:110px 16px 0 16px ;
+  
+  }
+ 
+
+  .firstname,.lastname{
+    font-size: 40px;
+  }
+
+  .position{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .drawer {
+
+    top: 20px;
+    right: -260px;
+  
+    height: 490px;
+    width: 520px;
+    opacity: 0;
+  
+  }
+}
 
 .profile svg {
   transform: rotate(-90deg);

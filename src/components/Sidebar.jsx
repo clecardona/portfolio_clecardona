@@ -42,7 +42,6 @@ export default function Sidebar() {
 
       <div className="burger-footer">
         <img className="img-60 img-rd" src={CC}/>
-          
       </div>
     </Menu>
   );

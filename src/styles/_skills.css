@@ -21,10 +21,11 @@
 @media screen and (max-width: 800px) {
     
     .skills{
-        height: unset;
-        grid-template-columns: 1fr ; 
-        grid-template-rows: 1fr 1fr 1fr; 
+        height: unset; 
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
 
     }
     .skills-item{
