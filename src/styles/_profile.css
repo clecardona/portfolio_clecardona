@@ -5,8 +5,9 @@
   overflow: hidden;
 }
 
+
 .profile-left {
-  background-color: ;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,6 +17,10 @@
 
   color: rgba(255, 255, 255, 0.822);
 }
+
+
+
+
 
 .firstname {
   margin: 0;
@@ -42,11 +47,29 @@
   font-weight: 700;
 }
 
-/* .profile-right div {
-  box-shadow: inset 3px 3px 5px rgba(54, 54, 54, 0.445);
-  border-radius: 300px 0 0 300px;
-  overflow: hidden;
-} */
+/** media queries mobile */
+@media screen and (max-width: 800px) {
+  .profile {
+    grid-template-columns: 1fr 220px;
+  }
+
+  .profile-left{
+    
+    
+    padding:110px 16px 0 16px ;
+  
+  }
+ 
+
+  .firstname,.lastname{
+    font-size: 40px;
+  }
+
+  .position{
+    font-size: 20px;
+    text-align: center;
+  }
+}
 
 .img-main {
   position: relative;

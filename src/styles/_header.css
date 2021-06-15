@@ -20,11 +20,11 @@
   height: 455px;
   width: 100%;
 
-  background-image: linear-gradient(#8e793e, #5116db00); 
+  background-image: linear-gradient(#dfc63a, #5116db00); 
   background-color: var(--backgrey);
-  /* background-blend-mode: multiply; */
+  background-blend-mode:screen;
 
-  border-radius: 0 0 10% 10%;
+  border-radius: 0 0 15% 10%;
 
   opacity: 0.6;
 
@@ -33,19 +33,21 @@
 
 .header-deco-mid {
   position: absolute;
-  top: 0px;
-  left: 0;
+  top: -100px;
+  left: -10%;
 
-  height: 170px;
+  height: 300px;
   width: 100%;
 
-  background-image: linear-gradient(#dbce0fad, #52bbbb25);
+  background-image: linear-gradient(#db9a0fad, #edf3f325);
 
-  border-radius: 0 0 50% 30%;
+  border-radius: 0 0 70% 30%;
 
   opacity: 0.4;
 
   z-index: -99;
+
+  
 }
 
 .header-deco-sub {
@@ -54,7 +56,7 @@
   height: 250px;
   width: 150%;
 
-  background-image: linear-gradient(#94a727a4, #2b2b2b);
+  background-image: linear-gradient(#dad726a4, #2b2b2bb2);
 
   border-radius: 0 0 30% 30%;
 

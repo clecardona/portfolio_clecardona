@@ -12,18 +12,18 @@ export default function Footer() {
       <ol>
         <li>
         <a href ="https://www.linkedin.com/in/cl%C3%A9ment-cardona-205098171/" target="blank">
-          <FontAwesomeIcon icon={faLinkedin} linkclassName="icon" size="2x" className="icon icon-li"/>
+          <FontAwesomeIcon icon={faLinkedin} className="icon icon-linkedin" size="2x" />
           </a>
         </li>
         <li><a href="mailto: clecardona@gmail.com" target="blank" className="icon">
 
-          <FontAwesomeIcon icon={faEnvelope} className="icon" size="2x" />
+          <FontAwesomeIcon icon={faEnvelope} className="icon icon-mail" size="2x" />
         </a>
         </li>
 
         <li>
         <a href ="https://github.com/clecardona" target="blank">
-          <FontAwesomeIcon icon={faGithub} linkclassName="icon" size="2x" className="icon icon-gh"/>
+          <FontAwesomeIcon icon={faGithub} className="icon icon-github" size="2x" />
           </a>
         </li>
       </ol>

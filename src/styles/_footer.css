@@ -25,5 +25,17 @@ footer ol li {
       width: 60px;
   }
   .icon:hover{
-      color:yellow;
+   color: rgb(197, 195, 195);
   }
+
+ 
+  .icon-linkedin:hover{
+    color: rgb(73, 52, 189);
+    background: white;
+
+    height: 32px;
+
+    box-shadow:inset 0px 0px 3px 3px rgb(43, 43, 43);
+}
+
+  
