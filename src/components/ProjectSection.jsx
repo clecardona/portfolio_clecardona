@@ -9,7 +9,7 @@ export default function ProjectSection() {
         <li className="item1">
           <div className="bg">
             <div className="item-title">
-              <p>Parcel Tracking <br/><strong>App</strong></p>
+              <p>Parcel <br/>Tracking <br/><strong>App</strong></p>
             <div className="item-legend">
               <a
                 href="https://github.com/clecardona/package-tracking-app"
@@ -48,8 +48,9 @@ export default function ProjectSection() {
           <div className="bg">
             <div className="item-title">
               <p>
-                Architecture
-                <br/> <strong>Portfolio</strong>
+                
+                <strong>Portfolio</strong>
+                <br/> Architecture
               </p>
             <div className="item-legend">
               <a href="http://clecardona.com/" target="blank">

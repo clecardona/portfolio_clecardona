@@ -6,20 +6,22 @@
 }
 
 .project ul {
+  /* background: red; */
   position: relative;
 
   margin: 0px;
 
   padding: 0;
-  width: 600px;
-  height: 150px;
+  width: 800px;
+  height: 400px;
+  margin: 50px 0;
 }
 
 ul li {
   list-style: none;
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background: #000;
   margin: 0;
   transform: rotate(45deg);
@@ -34,28 +36,28 @@ ul li:hover {
 }
 
 ul li.item1 {
-  top: -100px;
-  left: -100px;
+  top: 30px;
+  left: 30px;
 }
 
 ul li.item2 {
-  top: 50px;
-  left: 50px;
+  top: 170px;
+  left: 170px;
 }
 
 ul li.item3 {
-  top: -100px;
-  left: 200px;
+  top: 30px;
+  left: 310px;
 }
 
 ul li.item4 {
-  top: 50px;
-  left: 350px;
+  top: 170px;
+  left: 450px;
 }
 
 ul li.item5 {
-  top: -100px;
-  left: 500px;
+  top: 30px;
+  left: 590px;
 }
 
 
@@ -63,6 +65,11 @@ ul li .bg {
   width: 100%;
   height: 100%;
   transform: rotate(-45deg) scale(1.42);
+  
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+
 }
 
 ul li.item1 .bg {
@@ -93,7 +100,7 @@ ul li.item5 .bg {
   line-height: 0.9;
 
   position: relative;
-  top: 120px;
+  top: 100px;
   height: 200px;
 
   font-size: 13px;
@@ -112,7 +119,7 @@ ul li.item5 .bg {
 }
 
 .item-title:hover {
-  top: 90px;
+  top: 60px;
   transition: ease 0.3s;
 }
 
@@ -179,9 +186,9 @@ ul li.item5 .bg {
     font-size: 11px;
   }
     .item-title:hover {
-      top: 35px;
+      top: 0px;
       transition: ease 0.3s;
-      padding-top: 8px;
+      padding-top: 30px ;
     }
     
     .item-title:hover .item-legend {
