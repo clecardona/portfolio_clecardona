@@ -58,14 +58,17 @@
   z-index: -2;
   object-fit: cover;
   object-position: top left;
+
+  
 }
 
-.profile-right:hover .img-main-overlay {
-  transform-origin: right;
-  transform: translateX(-100px) scale(1.25);
-  transition: ease-in 0.3s;
-  opacity: 1;
+.container{
+ 
+  border-radius: 200px 0 0 200px;
+  
 }
+
+
 
 .drawer {
   
@@ -75,12 +78,18 @@
 
   height: 490px;
   width: 520px;
-  opacity: 0.8;
+  opacity: 0;
 
   border-radius: 200px;
 
   z-index: 200;
 }
+
+.container:hover .drawer{
+    opacity: 1;
+    transition: ease 0.5s;
+}
+
 
 .profile svg {
   transform: rotate(-90deg);
@@ -91,7 +100,19 @@
 
 
 .profile text {
-  fill: rgba(255, 255, 255, 0.596);
+  fill: rgba(255, 255, 255, 0.479);
   font-size: 18px;
   
 }
+
+.profile text  a{
+    fill: rgba(245, 239, 239, 0.788);
+    font-size: 20px;
+    
+  }
+
+  .profile text  a:hover{
+    /* fill: rgba(245, 239, 239, 0.788); */
+    fill: white;
+    
+  }

@@ -14,9 +14,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
 
-    overflow: hidden;
+   
   }
 
+/** media queries mobile */
+@media screen and (max-width: 800px) {
+    
+    .skills{
+        height: unset;
+        grid-template-columns: 1fr ; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        margin: 0;
+
+    }
+    .skills-item{
+        background-color: #00000060;
+        margin: 0;
+    }
+}
   
 
  .skills-item{
@@ -29,16 +44,17 @@
 
      font-size: 20px;
      height: max-content;
+
+     text-align: center;
  }
  
  .skills-item h3{
-    
     text-align: center;
 }
 
 .frontend{
-    border:1px solid #d4b13b;
-    color :#d4b13b;
+    border:1px solid #e2c76f;
+    color :#e2c76f;
 
 }
 .backend{
@@ -48,8 +64,8 @@
 }
 
 .philosophy{
-    border:1px solid #caa09b;
-    color :#caa09b;
+    border:1px solid #498f8f;
+    color :#498f8f;
 
 }
 
