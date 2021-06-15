@@ -81,6 +81,19 @@ section{
   /* margin-right: 30px; */
 }
 
+@media screen and (max-width: 800px) {
+  .section-title p{font-size: 20px;}
+  .section-title p strong{font-size: 28px;}
+  .section-title::before{
+    top:37px;
+    width: 20%;
+  }
+  .section-title::after{
+    width: 10px;
+  }
+}
+
+
 .general-container {
   width: 100vw;
   min-height: 100%;

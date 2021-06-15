@@ -13,6 +13,7 @@ text-align: center;
 }
 
 
+
 .bwb{
   color: black;
   background: rgba(224, 223, 147, 0.897);
@@ -70,4 +71,30 @@ font-family:'Times New Roman', Times, serif
 
 .quote-end{
 text-align: right;
+}
+
+
+/** media queries mobile */
+@media screen and (max-width: 800px) {
+  .me p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0px 7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .bwb{
+    font-size: 20px;
+  }
+  .wb{
+    
+    font-size: 20px;
+  }
+  .byb{
+    
+    font-size: 25px;
+  }
+
 }
