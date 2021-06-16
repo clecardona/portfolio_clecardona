@@ -43,7 +43,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: var(--backgrey);
+  background: white;
 }
 
 /*
@@ -85,14 +85,20 @@
 
 /*   /* Menu item including icon */
 .menu-item {
-  align-self: flex-start; 
-  margin:15px 0;
-  /* gap: 20px; */
+  /* background: red; */
+  display: flex;
+  
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  margin:  12px;
+  
 }
 
-.menu-item-text{
-    margin-left: 10px;
-    margin-bottom: 10px;
+.icon-menu{
+  /* background-color: blue; */
+  margin-right: 20px;
 }
 
 .menu-item-text:hover{
@@ -101,11 +107,6 @@
     transition: ease-in-out .3s;
 }
 
-.bm-menu-wrap img {
-margin-bottom: -5px ;
-}
-
-
 
 
 
@@ -113,6 +114,8 @@ margin-bottom: -5px ;
 /* background: red; */
 padding: 200px 0 0 90px ;
 }
+
+
 
 
 
