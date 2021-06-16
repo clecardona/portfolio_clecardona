@@ -11,11 +11,11 @@ export default function MeSection() {
         </span>
         <span className="ysi">
           From there I choosed to follow another passion and change carrier to
-          become a <span className="bwb">developer</span>
+          become a <span className="wb">developer</span>
           <br />
         </span>
 
-        <span className="wb">Curious and creative.</span>
+        <span className="bwb">Curious and creative.</span>
 
         <span className="byb bold">Problem solving oriented.</span>
         <div className="yb">

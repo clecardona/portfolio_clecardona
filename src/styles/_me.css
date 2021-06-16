@@ -4,9 +4,9 @@
 }
 .me .bloc {
   margin: 30px 0;
-  color: yellow;
+  color: rgb(218, 218, 125);
   padding: 0px 20%;
-  line-height: 1.2;
+  line-height: 1.25;
 text-overflow: clip;
 text-align: center;
 
@@ -18,21 +18,23 @@ text-align: center;
   color: black;
   background: rgba(224, 223, 147, 0.897);
   font-size: 30px;
-  padding:0 15px;
-  margin: 0 6px;
+  padding:0 12px;
+  margin: 3px 6px;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .wb{
   color: white;
   font-size: 30px;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0 6px;
+  margin: 3px 6px;
+  
 }
 
 .yb{
-  color: yellow;
-  font-weight: 800;
+  color: rgb(204, 178, 63);
+  font-weight: 100;
   margin: 0 6px;
 
 }
@@ -50,6 +52,7 @@ text-align: center;
   padding:0 15px;
   margin: 0 6px;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .bold{
