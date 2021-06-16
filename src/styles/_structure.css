@@ -1,7 +1,14 @@
 
 body{
-  background-color: var(--backgrey);
+  background: var(--backgrey);
+  
   z-index: -200;
+
+
+   width: 100%;
+  overflow-x: hidden; 
+  
+  
   
 }
 a, a:visited, a:hover, a:active {
@@ -19,7 +26,7 @@ h2{
 }
 
 hr{
-  width: 100%;
+  width: 90%;
 }
 
 .section-title{

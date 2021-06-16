@@ -22,7 +22,7 @@ export default function ProfileSection() {
               <text width="300">
                 <textPath
                   startOffset="100%"
-                   text-anchor="end"
+                   textAnchor="end"
                    href="#curve"
                 >
                   <a href="mailto: clecardona@gmail.com" target="blank">clecardona@gmail.com</a> . 076-590-16-39

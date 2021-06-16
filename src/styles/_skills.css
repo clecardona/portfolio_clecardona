@@ -19,6 +19,7 @@
 
  .skills-item{
      background-color: #00000060;
+
      margin: 30px 10px 0 10px;
      padding: 10px 20px 20px 20px;
      border-radius: 10px;
@@ -51,7 +52,7 @@
     }
     .skills-item{
         background-color: #00000060;
-        margin: 0;
+        margin: 9px 0;
     }
 }
 
