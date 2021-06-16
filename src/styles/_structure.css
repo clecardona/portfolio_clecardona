@@ -5,11 +5,18 @@ body{
   z-index: -200;
 
 
-   width: 100%;
+  width: 100%;
   overflow-x: hidden; 
   
   
-  
+}
+
+@media screen and (max-width: 800px) {
+  body{
+ 
+    
+  }
+
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
