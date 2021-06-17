@@ -76,6 +76,9 @@ export default function ProjectSection() {
               <a href="https://github.com/clecardona/inStyle" target="blank">
               <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
               </a>
+              <a href="https://instyle-3f5f5.web.app/" target="blank">
+              <FontAwesomeIcon icon={faSafari} className="icon" size="2x" />
+              </a>
             </div>
             </div>
           </div>
