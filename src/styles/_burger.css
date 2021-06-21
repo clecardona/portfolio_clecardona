@@ -107,7 +107,10 @@
     transition: ease-in-out .3s;
 }
 
-
+#menu-title{
+  /* background: red; */
+  padding-left: 10px;
+}
 
 
 .burger-footer{

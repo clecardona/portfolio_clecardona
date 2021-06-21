@@ -11,7 +11,7 @@ import CC from '../assets/img/CC.png'
 export default function Sidebar() {
   return (
     <Menu>
-      <h3>Menu</h3>
+      <h3 id="menu-title">Menu</h3>
       <hr/>
 
       <div className="menu-item">

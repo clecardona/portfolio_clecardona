@@ -11,51 +11,77 @@ import Footer from "./components/Footer";
 import TechnoSection from "./components/TechnoSection";
 import Sidebar from "./components/Sidebar";
 
-
-
 function App() {
   return (
     <div className="App">
-
-      <Sidebar/>
+      <Sidebar />
       <header>
         <HeaderBackground />
-        
       </header>
 
       <main>
-      
         <ProfileSection />
-        <div className="section-title">
+        {/*  <div className="section-title">
           <p id="what">
-            <strong>What</strong> I do ?
+            <strong>What</strong> I do ? 
           </p>
-        </div>
+        </div> */}
+        <img
+        id="what"
+          className="img-200 center"
+          src="https://clecardona.com/code/icons/gummy-app-development.svg"
+          alt="who"
+        />
+        <h4><strong>What</strong> I do?</h4>
 
         <SkillSection />
-        <div className="section-title">
+        {/* <div className="section-title">
           <p id="who">
             <strong>Who</strong> I am ?
           </p>
+        </div> */}
+        <div className="section-header">
+        <img
+        id="who"
+          className="img-200 center"
+          src="https://clecardona.com/code/icons/gummy-me.svg"
+          alt="who"
+        />
+        <h4><strong>Who</strong> I am</h4>
         </div>
+
         <MeSection />
 
-        <div className="section-title">
+        {/* <div className="section-title">
           <p id="selected">
             <strong>Selected</strong> Work
           </p>
+        </div> */}
+    
+<div className="section-header">
+        <img
+          id="selected"
+          className="img-200 center"
+          src="https://clecardona.com/code/icons/gummy-macbook.svg"
+          alt="who"
+        />
+        <h4><strong>Selected</strong> Work</h4>
         </div>
+
         <ProjectSection />
-        <div className="section-title">
-          <p id="techno">
-            <strong>Technologies</strong> I use
-          </p>
+       
+      
+        
+<div className="section-header">
+        <img
+        id="techno"
+          className="img-200 center"
+          src="https://clecardona.com/code/icons/gummy-tools.svg"
+          alt="who"
+        />
+        <h4><strong>Technologies</strong> I use</h4>
         </div>
-        <TechnoSection/>
-
-
-
-
+        <TechnoSection />
       </main>
       <Footer />
     </div>
