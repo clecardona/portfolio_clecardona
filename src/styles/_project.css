@@ -5,6 +5,13 @@
   height: fit-content;
 }
 
+@media screen and (max-width: 800px) {
+  .project{
+   /*  background: rgb(54, 54, 54); */
+  
+  }
+}
+
 .project ul {
   /* background: red; */
   position: relative;

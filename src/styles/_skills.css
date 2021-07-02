@@ -13,21 +13,28 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
-
    
+  }
+
+  @media screen and (max-width: 800px) {
+    /* .skills{
+      background: rgb(54, 54, 54);
+      background-image: none;
+      box-shadow:none;
+    } */
   }
 
  .skills-item{
      background-color: #00000060;
 
      margin: 30px 10px 0 10px;
-     padding: 10px 20px 20px 20px;
+     padding: 30px 20px;
      border-radius: 10px;
 
      border:1px solid rgba(255, 255, 255, 0.445);
 
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 200;
      height: max-content;
 
@@ -74,3 +81,22 @@
 
 }
 
+.skills-link{
+
+    margin: 30px 0 10px 0;
+    font-weight: 500;
+}
+
+.skills-link:hover{
+    transform: scale(1.1) rotate(-2deg);
+    transition:
+     ease .3s;
+}
+
+.icon-skills{
+    /* color: rgb(189, 189, 189); */
+    /* border: 1px white solid ;
+    border-radius: 20px;
+    padding: 10px; */
+
+}

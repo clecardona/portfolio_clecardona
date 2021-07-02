@@ -119,8 +119,10 @@
   }
 
   .position{
-    font-size: 20px;
+    
     text-align: center;
+    border: none;
+    font-size: 13px;
   }
 
   .cv{
