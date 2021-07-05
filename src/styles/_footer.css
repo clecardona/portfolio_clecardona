@@ -6,6 +6,7 @@ footer{
 footer ol{
     background-color: rgb(48, 48, 48);
     height: 100%;
+    margin: 0;
 
     display: flex;
     flex-direction: row;
@@ -24,8 +25,12 @@ footer ol li {
       height: 60px;
       width: 60px;
   }
+
+  footer .icon{
+    color:rgb(170, 169, 169);
+  }
   .icon:hover{
-   color: rgb(197, 195, 195);
+   color: rgb(255, 253, 253);
   }
 
  

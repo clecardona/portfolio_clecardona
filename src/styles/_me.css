@@ -1,103 +1,111 @@
 .me {
   font-size: 20px;
-  
+  background-color: var(--backgrey2);
+  height: fit-content;
+  padding: 80px 0px;
 }
+
 .me .bloc {
-  margin: 0;
+  width: fit-content;
+  margin: 0 15%;
   color: rgb(218, 218, 125);
-  padding: 0px 20%;
-  line-height: 1.25;
-text-overflow: clip;
-text-align: center;
 
+  padding: 40px;
+  line-height: 1.25;
+  text-overflow: clip;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.048);
+  border-radius: 7px;
+
+  box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.178);
 }
 
-
-
-.bwb{
+.bwb {
   color: black;
   background: rgba(224, 223, 147, 0.897);
   font-size: 30px;
-  padding:0 12px;
+  padding: 0 12px;
   margin: 3px 6px;
   border-radius: 5px;
   width: fit-content;
 }
 
-.wb{
+.wb {
   color: white;
   font-size: 30px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 3px 6px;
-  
 }
 
-.yb{
+.yb {
   color: rgb(204, 178, 63);
   font-weight: 100;
   margin: 0 6px;
-
 }
 
-.ysi{
+.ysi {
   /* font-style: italic; */
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0 6px;
 }
 
-.byb{
+.byb {
   color: var(--backgrey);
   background: rgba(219, 219, 219, 0.897);
   font-size: 30px;
-  padding:0 15px;
+  padding: 0 15px;
   margin: 0 6px;
   border-radius: 5px;
   width: fit-content;
 }
 
-.bold{
-font-weight: 900;
+.bold {
+  font-weight: 900;
 }
 
-.golden{
+.golden {
   color: rgb(226, 213, 155);
 }
 
-.quote{
-margin: 0 15%;
-color: bisque;
-font-weight: 900;
-font-size: 45px;
-font-style: italic;
-font-family:'Times New Roman', Times, serif
+.quote {
+  margin: 0 15%;
+  color: bisque;
+  font-weight: 900;
+  font-size: 45px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.quote-end{
-text-align: right;
+.quote-end {
+  text-align: right;
 }
-
 
 /** media queries mobile */
 @media screen and (max-width: 800px) {
   .me .bloc {
-    font-size: 18px;
-    margin: 10px 0;
-    padding: 0px 7%;
+    font-size: 14px;
+    margin: 0;
+    padding: 25px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background: none;
+    box-shadow: none;
   }
-  .bwb{
+  .bwb {
     font-size: 20px;
   }
-  .wb{
-    
+  .wb {
     font-size: 20px;
   }
-  .byb{
-    
+  .byb {
     font-size: 25px;
   }
-
+  .quote {
+    /*  display: none; */
+  }
 }

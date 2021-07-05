@@ -1,4 +1,10 @@
-.project {
+.project{
+  height: fit-content;
+  padding: 80px 0px ;
+ 
+}
+
+.project-body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +18,7 @@
   }
 }
 
-.project ul {
+.project-body ul {
   /* background: red; */
   position: relative;
 
@@ -145,7 +151,7 @@ ul li.item5 .bg {
   z-index: 5;
 }
 @media screen and (max-width: 800px) {
-  .project ul {
+  .project-body ul {
     
    /*  background: red; */
     width: 410px;

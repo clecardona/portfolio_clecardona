@@ -12,6 +12,19 @@ import {
 export default function TechnoSection() {
   return (
     <section className="techno">
+ <div className="section-header">
+          <img
+            id="techno"
+            className="img-200 center"
+            src="https://clecardona.com/code/icons/gummy-tools.svg"
+            alt="who"
+          />
+          <h4>
+            <strong>Technologies</strong> I use
+          </h4>
+        </div>
+
+    <div className="techno-body">
       <div className="icon-box">
       < div className="icon-box-zoom">
       <FontAwesomeIcon icon={faJava} className="icon icon-techno  icon-java" size="5x" />
@@ -63,6 +76,7 @@ export default function TechnoSection() {
 
       
   
+</div>
 </section>
   );
 }

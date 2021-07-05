@@ -4,7 +4,17 @@ import {faGithub ,faLinkedin ,faSafari} from "@fortawesome/free-brands-svg-icons
 
 export default function ProjectSection() {
   return (
-    <section className="project">
+<section className="project">
+<div className="section-header">
+        <img
+          id="selected"
+          className="img-200 center"
+          src="https://clecardona.com/code/icons/gummy-macbook.svg"
+          alt="who"
+        />
+        <h4><strong>Selected</strong> Work</h4>
+        </div>
+    <div className="project-body">
       <ul>
         <li className="item1">
           <div className="bg">
@@ -102,6 +112,7 @@ export default function ProjectSection() {
           </div>
         </li>
       </ul>
+    </div>
     </section>
   );
 }

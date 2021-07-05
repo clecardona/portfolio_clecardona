@@ -1,4 +1,9 @@
 .techno {
+  background-color: var(--backgrey2);
+  height: fit-content;
+  padding: 80px 0px ;
+}
+.techno-body {
   height: 300px;
   margin:  0;
 
@@ -12,7 +17,7 @@
 
 /** media queries mobile */
 @media screen and (max-width: 800px) {
-  .techno {
+  .techno-body {
     /* background-color: green; */
     display: grid;
     
